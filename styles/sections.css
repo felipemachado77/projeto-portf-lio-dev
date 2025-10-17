@@ -1,0 +1,95 @@
+
+#info {  
+  padding-block: 120px 94px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  background-image: url(/assets/Background_Intro.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#info header{
+  max-width: 680px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 56px;
+  }
+
+#info header figure{
+  position: relative;
+  width: 112px;
+}
+#info header figure img:last-child {
+  position: absolute;
+  right: -8px;
+  bottom: 6px;
+}
+
+#profile{
+  width: 100%;
+  height: 100%;
+  border: 3px solid #ff5a5a;  
+  border-radius: 50%; 
+  object-fit: cover;
+}
+
+#main-text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  #title{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    h1{
+      font: var(--title-lg);
+    }
+    h2{
+      font: var(--subtitle);
+    }
+}
+p{
+  font: var(--text-sm);
+  color: var(--gray-300);
+}
+}
+
+#tags{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  
+}
+.tag{
+    font: var(--text-md);
+    background-color: var(--gray-400);
+    padding: 8px 16px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+.seta{
+  display: block;
+  margin: auto;
+  margin-bottom: 57px;
+}
+
+  
+
+
+
+
+  
+  
+ 
+  
+    
+
+
+
