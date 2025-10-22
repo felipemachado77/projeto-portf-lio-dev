@@ -1,0 +1,48 @@
+#projects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  padding-block: 72px 144px;
+}
+#projects header{
+  text-align: center;
+}
+#projects header h2{
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+#projects .grid{
+  gap: 24px;
+}
+#projects .grid figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-400);
+  padding-block: 12px 17px;
+  padding-inline: 12px;
+  border-radius: 8px;
+}
+#projects .grid figcaption{
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  gap: 8px;
+  h3{
+    font: var(--title-sm);
+  }
+  p{
+    color: var(--gray-200);
+    font: var(--text-sm);
+  }
+}
+#projects img{
+  width: 306px;
+  height: 156px;
+  border-radius: 8px;
+}
