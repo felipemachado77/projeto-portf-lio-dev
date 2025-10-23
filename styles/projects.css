@@ -31,10 +31,12 @@
 #projects .grid figcaption{
   display: flex;
   flex-direction: column;
+  gap: 16px;
   padding: 4px;
   gap: 8px;
   h3{
     font: var(--title-sm);
+    color: var(--gray-100);
   }
   p{
     color: var(--gray-200);
